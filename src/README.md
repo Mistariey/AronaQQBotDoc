@@ -319,6 +319,12 @@ copyright: false
 footer: 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a> 主题 | MIT 协议, 版权所有 © 2019-至今 Mr.Hope
 ---
 
+:::important
+
+请在正式使用「阿洛娜」前阅读 EULA协议
+
+:::
+
 欢迎来到 QQ机器人「阿洛娜」(A.R.O.N.A) 的使用文档
 
 :::info
