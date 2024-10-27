@@ -6,8 +6,8 @@ export default defineUserConfig({
   base: "/AronaQQBotDoc/",
 
   lang: "zh-CN",
-  title: "文档演示",
-  description: "vuepress-theme-hope 的文档演示",
+  title: "AronaQQBot",
+  description: "QQ机器人 阿洛娜 的使用文档",
 
   theme,
 
