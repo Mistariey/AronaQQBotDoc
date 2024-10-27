@@ -321,7 +321,7 @@ footer: 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VueP
 
 :::important
 
-请在正式使用「阿洛娜」前阅读 EULA协议
+请在正式使用「阿洛娜」前阅读 [EULA协议](./documentation/eula.md)
 
 :::
 
