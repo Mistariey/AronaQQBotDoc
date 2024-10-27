@@ -4,16 +4,17 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://www.hoshiran.tech/",
+  hostname: "https://www.hoshiran.tech",
 
   author: {
     name: "Travellerr",
     url: "https://www.travellerr.cn",
   },
 
+  favicon: "/logo.png",
+
   iconAssets: "fontawesome-with-brands",
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
   repo: "NaxidaAndHoshiran/AronaQQBotDoc",
 
@@ -25,9 +26,11 @@ export default hopeTheme({
   // 侧边栏
   sidebar,
 
+  editLink: false,
+
   // 页脚
   footer: "默认页脚",
-  displayFooter: true,
+  displayFooter: false,
 
   // 加密配置
   encrypt: {
