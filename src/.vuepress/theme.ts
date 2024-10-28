@@ -15,6 +15,7 @@ export default hopeTheme({
 
   iconAssets: "fontawesome-with-brands",
 
+  print: false,
 
   repo: "NaxidaAndHoshiran/AronaQQBotDoc",
 
