@@ -2,13 +2,13 @@
 home: true
 icon: home
 title: 项目主页
-// heroImage: https://theme-hope-assets.vuejs.press/logo.svg
+heroImage: /assets/image/bot_avatar.png
 bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
   background-attachment: fixed
 heroText: QQ机器人「阿洛娜」
-tagline: 一个攻略查询/游戏养成的QQ机器人
+tagline: <br><br><br>一个攻略查询/游戏养成的QQ机器人<br><br><br>
 actions:
   - text: 最终用户许可协议
     icon: file-text
@@ -26,6 +26,7 @@ highlights:
       - title: 每日时事新闻与B站新番推荐
       - title: 每日运势、人品与塔罗牌查询
       - title: 特色机制与系统功能
+
 
   - header: 经济系统
     description: 「阿洛娜」搭载了一套完整的经济系统，可以让您利用金币进行购买、游戏等操作
