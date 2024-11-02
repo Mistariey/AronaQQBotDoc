@@ -14,6 +14,9 @@ actions:
     icon: file-text
     link: ./documentation/eula.md
     type: primary
+  - text: 开始使用
+    icon: play
+    link: ./documentation/UsageGuide.md
 
 highlights:
   - header: 指令功能

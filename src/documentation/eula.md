@@ -1,7 +1,7 @@
 ---
 title: 最终用户许可协议
 icon: file-text
-order: 2
+order: 1
 category: 指南
 tag:
   - EULA
