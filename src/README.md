@@ -19,6 +19,15 @@ actions:
     link: ./documentation/UsageGuide.md
 
 highlights:
+  
+  - header: 小提示
+    bgImage: https://theme-hope-assets.vuejs.press/bg/7-light.svg
+    bgImageDark: https://theme-hope-assets.vuejs.press/bg/7-dark.svg
+    highlights:
+        - title: 'Tips: 请注意全角与半角的区别，阿洛娜全部使用半角 "#"，而不是全角 "＃"'
+        - title: 'Tips: 部分指令需要将各参数用空格分开，如：`#转账@用户 100`'
+        - title: 'Tips: 一切指令"[]"表示为必填参数，"<>""表示为可选参数，请将括号去掉后替换相应内容发送'
+
   - header: 指令功能
     image: /assets/image/box.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/3-light.svg
@@ -29,7 +38,6 @@ highlights:
       - title: 每日时事新闻与B站新番推荐
       - title: 每日运势、人品与塔罗牌查询
       - title: 特色机制与系统功能
-
 
   - header: 经济系统
     description: 「阿洛娜」搭载了一套完整的经济系统，可以让您利用金币进行购买、游戏等操作
@@ -121,8 +129,8 @@ highlights:
         details: 获取指定关键词的表情包，文字为指定文字
         
 
-  - header: 公测-回声洞系统
-    description: 「阿洛娜」新增了公测功能-回声洞系统，可以让您花费金币发送消息到回声洞，让其他用户看到
+  - header: 回声洞系统
+    description: 「阿洛娜」回声洞系统，可以让您花费金币发送消息到回声洞，让其他用户看到
     image: /assets/image/features.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/1-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/1-dark.svg
@@ -151,11 +159,81 @@ highlights:
         icon: ellipsis
         details: 更多功能正在开发中
 
-  - header: 新功能
-    description: 「阿洛娜」还在不断更新中，更多功能正在开发中
+  - header: 公测-宠物系统
+    description: 「阿洛娜」新增的宠物系统，可以让您养成自己的宠物
     image: /assets/image/advanced.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/4-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/4-dark.svg
+    features:
+      - title: '#宠物列表'
+        icon: list
+        details: 查看全部宠物列表
+        
+      - title: '#领养宠物 [宠物名称] <宠物名称>'
+        icon: plus
+        details: 领养一个宠物，可以自定义宠物名称(第一个参数)
+        
+      - title: '#查看宠物'
+        icon: search
+        details: 查看您的宠物信息
+        
+      - title: '#遗弃宠物'
+        icon: trash-alt
+        details: 遗弃您的宠物
+        
+      - title: '#宠物睡觉'
+        icon: bed
+        details: 让您的宠物睡觉，期间数值不会改变
+        
+      - title: '#唤醒宠物'
+        icon: sun
+        details: 唤醒您的宠物，数值会恢复计算
+        
+      - title: '#创建任务'
+        icon: tasks
+        details: 创建一个创意工坊宠物任务，每次消耗一定量金币，审核通过才会显示
+        
+      - title: '#创建物品'
+        icon: hammer
+        details: 创建一个创意工坊宠物物品，每次消耗一定量金币，审核通过才会显示
+        
+      - title: '#查看任务列表' 
+        icon: list
+        details: 查看您的宠物任务列表
+        
+      - title: '#开始任务 [任务ID]'
+        icon: play
+        details: 开始您的宠物任务，获取科技点、心情、经验
+        
+      - title: '#查看任务'
+        icon: search
+        details: 查看您的宠物任务状态，若时间到则直接结束
+        
+      - title: '#结束任务'
+        icon: stop
+        details: 结束您的宠物任务，获取科技点、心情、经验
+        
+      - title: '#查看物品列表'
+        icon: list
+        details: 查看您的宠物物品列表
+        
+      - title: '#购买物品 [物品ID]'
+        icon: shopping-cart
+        details: 购买您的宠物物品，消耗金币
+        
+      - title: '#兑换科技点 [花费金币数量]'
+        icon: exchange-alt
+        details: 兑换您的金币为科技点，按照固定汇率兑换
+        
+      - title: '即将到来'
+        icon: ellipsis
+        details: 更多功能正在开发中
+
+  - header: 新功能
+    description: 「阿洛娜」还在不断更新中，更多功能正在开发中
+    image: /assets/image/advanced.svg
+    bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
+    bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
     highlights:
       - title: '更多功能'
         icon: ellipsis
