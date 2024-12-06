@@ -42,8 +42,8 @@ highlights:
   - header: 经济系统
     description: 「阿洛娜」搭载了一套完整的经济系统，可以让您利用金币进行购买、游戏等操作
     // image: /assets/image/markdown.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/2-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/2-dark.svg
+    bgImage: /assets/image/HomePage/EconomyBg.png
+    bgImageDark: /assets/image/HomePage/EconomyBg.png
     bgImageStyle:
       background-repeat: repeat
       background-size: initial
@@ -51,6 +51,7 @@ highlights:
       - title: '#个人信息'
         icon: id-card
         details: 查看您的个人信息，包括金币、称号、银行等
+        
         
       - title: '#签到'
         icon: calendar-check
@@ -83,8 +84,8 @@ highlights:
   - header: 好感度系统
     description: 同时，「阿洛娜」搭载了契合度高的好感度系统，在投入金币的同时，也可以提升与「阿洛娜」的好感度
     image: /assets/image/ui.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/9-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/9-dark.svg
+    bgImage: /assets/image/HomePage/FavorBg.png
+    bgImageDark: /assets/image/HomePage/FavorBg.png
     features:
       - title: '#制造 [金币]'
         icon: hammer
@@ -109,8 +110,8 @@ highlights:
   - header: 表情包系统
     description: 「阿洛娜」还搭载了表情包系统，可以让您自由生成自己喜爱的表情
     image: /assets/image/layout.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
+    bgImage: /assets/image/HomePage/EmojiBg.png
+    bgImageDark: /assets/image/HomePage/EmojiBg.png
     features:
       - title: 'pet'
         icon: images
@@ -132,8 +133,8 @@ highlights:
   - header: 回声洞系统
     description: 「阿洛娜」回声洞系统，可以让您花费金币发送消息到回声洞，让其他用户看到
     image: /assets/image/features.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/1-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/1-dark.svg
+    bgImage: /assets/image/HomePage/EchoBg.png
+    bgImageDark: /assets/image/HomePage/EchoBg.png
     features:
       - title: '#添加回声洞 [文本]'
         icon: plus
@@ -162,8 +163,8 @@ highlights:
   - header: 公测-宠物系统
     description: 「阿洛娜」新增的宠物系统，可以让您养成自己的宠物
     image: /assets/image/advanced.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/4-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/4-dark.svg
+    bgImage: /assets/image/HomePage/PetBg.png
+    bgImageDark: /assets/image/HomePage/PetBg.png
     features:
       - title: '#宠物列表'
         icon: list
@@ -232,8 +233,8 @@ highlights:
   - header: 新功能
     description: 「阿洛娜」还在不断更新中，更多功能正在开发中
     image: /assets/image/advanced.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
+    bgImage: /assets/image/HomePage/ComingSoonBg.png
+    bgImageDark: /assets/image/HomePage/ComingSoonBg.png
     highlights:
       - title: '更多功能'
         icon: ellipsis
@@ -242,23 +243,3 @@ highlights:
 copyright: false
 // footer: 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a> 主题 | by Travellerr
 ---
-<!--
-
-<br>
-<br>
-
-:::important
-
-请在正式使用「阿洛娜」前阅读 [EULA协议](./documentation/eula.md)
-
-:::
-
-欢迎来到 QQ机器人「阿洛娜」(A.R.O.N.A) 的使用文档
-
-:::info
-
-施工中...
-
-:::
-
--->

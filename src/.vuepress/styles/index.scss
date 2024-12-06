@@ -1,1 +1,21 @@
-// place your custom styles here
+.vp-feature-item, .vp-highlights, .vp-feature-description, .vp-feature-header {
+  background: rgba(255, 255, 255, 0.2); /* White transparent background */
+  backdrop-filter: blur(10px); /* Frosted glass effect */
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.vp-feature-item {
+  padding: 20px 15px;
+}
+
+.vp-highlights {
+  padding: 20px 8em 20px 15px;
+  margin-left: 15px;
+}
+
+.vp-feature-description, .vp-feature-header {
+    padding: 20px;
+}

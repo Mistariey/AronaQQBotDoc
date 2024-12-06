@@ -1,0 +1,9 @@
+/* custom.css */
+.feature-item {
+  background: rgba(255, 255, 255, 0.8); /* 白色透明背景 */
+  backdrop-filter: blur(10px); /* 毛玻璃效果 */
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
