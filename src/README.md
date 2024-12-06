@@ -42,8 +42,8 @@ highlights:
   - header: 经济系统
     description: 「阿洛娜」搭载了一套完整的经济系统，可以让您利用金币进行购买、游戏等操作
     // image: /assets/image/markdown.svg
-    bgImage: /assets/image/HomePage/EconomyBg.png
-    bgImageDark: /assets/image/HomePage/EconomyBg.png
+    bgImage: /assets/image/HomePage/EconomyBg.webp
+    bgImageDark: /assets/image/HomePage/EconomyBg.webp
     bgImageStyle:
       background-repeat: repeat
       background-size: initial
@@ -84,8 +84,8 @@ highlights:
   - header: 好感度系统
     description: 同时，「阿洛娜」搭载了契合度高的好感度系统，在投入金币的同时，也可以提升与「阿洛娜」的好感度
     image: /assets/image/ui.svg
-    bgImage: /assets/image/HomePage/FavorBg.png
-    bgImageDark: /assets/image/HomePage/FavorBg.png
+    bgImage: /assets/image/HomePage/FavorBg.webp
+    bgImageDark: /assets/image/HomePage/FavorBg.webp
     features:
       - title: '#制造 [金币]'
         icon: hammer
@@ -110,8 +110,8 @@ highlights:
   - header: 表情包系统
     description: 「阿洛娜」还搭载了表情包系统，可以让您自由生成自己喜爱的表情
     image: /assets/image/layout.svg
-    bgImage: /assets/image/HomePage/EmojiBg.png
-    bgImageDark: /assets/image/HomePage/EmojiBg.png
+    bgImage: /assets/image/HomePage/EmojiBg.webp
+    bgImageDark: /assets/image/HomePage/EmojiBg.webp
     features:
       - title: 'pet'
         icon: images
@@ -133,8 +133,8 @@ highlights:
   - header: 回声洞系统
     description: 「阿洛娜」回声洞系统，可以让您花费金币发送消息到回声洞，让其他用户看到
     image: /assets/image/features.svg
-    bgImage: /assets/image/HomePage/EchoBg.png
-    bgImageDark: /assets/image/HomePage/EchoBg.png
+    bgImage: /assets/image/HomePage/EchoBg.webp
+    bgImageDark: /assets/image/HomePage/EchoBg.webp
     features:
       - title: '#添加回声洞 [文本]'
         icon: plus
@@ -163,8 +163,8 @@ highlights:
   - header: 公测-宠物系统
     description: 「阿洛娜」新增的宠物系统，可以让您养成自己的宠物
     image: /assets/image/advanced.svg
-    bgImage: /assets/image/HomePage/PetBg.png
-    bgImageDark: /assets/image/HomePage/PetBg.png
+    bgImage: /assets/image/HomePage/PetBg.webp
+    bgImageDark: /assets/image/HomePage/PetBg.webp
     features:
       - title: '#宠物列表'
         icon: list
@@ -233,8 +233,8 @@ highlights:
   - header: 新功能
     description: 「阿洛娜」还在不断更新中，更多功能正在开发中
     image: /assets/image/advanced.svg
-    bgImage: /assets/image/HomePage/ComingSoonBg.png
-    bgImageDark: /assets/image/HomePage/ComingSoonBg.png
+    bgImage: /assets/image/HomePage/ComingSoonBg.webp
+    bgImageDark: /assets/image/HomePage/ComingSoonBg.webp
     highlights:
       - title: '更多功能'
         icon: ellipsis
