@@ -9,6 +9,7 @@ bgImageStyle:
   background-attachment: fixed
 heroText: QQ机器人「阿洛娜」
 tagline: <br><br><br>一个攻略查询/游戏养成的QQ机器人<br><br><br>
+heroFullScreen: true
 actions:
   - text: 最终用户许可协议
     icon: file-text
