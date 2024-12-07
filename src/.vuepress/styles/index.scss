@@ -1,4 +1,4 @@
-.vp-feature-item, .vp-highlights, .vp-feature-description, .vp-feature-header {
+.vp-feature-item, .vp-highlights, .vp-feature-description, .vp-feature-header, .vp-hero-mask::after {
   background: rgba(255, 255, 255, 0.2); /* White transparent background */
   backdrop-filter: blur(10px); /* Frosted glass effect */
   -webkit-backdrop-filter: blur(10px); /* Safari support */
@@ -18,4 +18,16 @@
 
 .vp-feature-description, .vp-feature-header {
     padding: 20px;
+}
+
+
+.vp-hero-mask::after{
+  background: rgba(255, 255, 255, 0.2); /* White transparent background */
+  backdrop-filter: blur(2px); /* Frosted glass effect */
+  margin: 2em;
+}
+
+.sub-button {
+  background: rgba(255, 255, 255, 0.4); /* White transparent background */
+  backdrop-filter: blur(5px); /* Frosted glass effect */
 }

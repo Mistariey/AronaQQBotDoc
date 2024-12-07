@@ -3,8 +3,8 @@ home: true
 icon: home
 title: 项目主页
 heroImage: /assets/image/bot_avatar.png
-bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
-bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
+bgImage: /assets/image/HomePage/HeroBg.webp
+bgImageDark: /assets/image/HomePage/HeroBg.webp
 bgImageStyle:
   background-attachment: fixed
 heroText: QQ机器人「阿洛娜」
@@ -18,6 +18,7 @@ actions:
   - text: 开始使用
     icon: play
     link: ./documentation/UsageGuide.md
+    type: sub-button
 
 highlights:
   
