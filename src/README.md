@@ -40,10 +40,85 @@ highlights:
       - title: 每日时事新闻与B站新番推荐
       - title: 每日运势、人品与塔罗牌查询
       - title: 特色机制与系统功能
+        
+  - header: 杂项功能
+    image: /assets/image/miscellaneous.svg
+    bgImage: /assets/image/HomePage/Menu.webp
+    bgImageDark: /assets/image/HomePage/Menu.webp
+    features:
+      - title: '#单抽'
+        icon: dice
+        details: 蔚蓝档案单次抽奖
+        
+      - title: '#十连'
+        icon: dice-d20
+        details: 蔚蓝档案十连抽奖
+        
+      - title: '#塔罗牌'
+        icon: magic
+        details: 抽取一张塔罗牌
+        
+      - title: '#攻略 [学生/地图/杂图]'
+        icon: book
+        details: 查询蔚蓝档案攻略
+        
+      - title: '#活动 [国服/日服/国际服]'
+        icon: calendar
+        details: 查询蔚蓝档案活动
+        
+      - title: '#今日运势'
+        icon: star
+        details: 查询今日运势
+        
+      - title: '#今日人品'
+        icon: thumbs-up
+        details: 查询今日人品
+        
+      - title: '#抽老婆/#换老婆/今日老婆'
+        icon: user
+        details: 抽取/更换/查看今日随机群友作为老婆
+        
+      - title: '#mcp [ip]'
+        icon: server
+        details: 查询Minecraft服务器信息
+        
+      - title: '#今日新闻'
+        icon: newspaper
+        details: 获取今日60秒新闻
+        
+      - title: '#今日番剧'
+        icon: tv
+        details: 获取今日B站新番
+        
+      - title: '#经济菜单'
+        icon: money-bill-wave
+        details: 查看经济系统菜单
+        
+      - title: '#好感度菜单'
+        icon: heart
+        details: 查看好感度系统菜单
+        
+      - title: '#表情包菜单'
+        icon: images
+        details: 查看表情包系统菜单
+        
+      - title: '#回声洞菜单'
+        icon: comment
+        details: 查看回声洞系统菜单
+        
+      - title: '#宠物菜单'
+        icon: paw
+        details: 查看宠物系统菜单
+        
+      - title: '#Wordle菜单'
+        icon: gamepad
+        details: 查看Wordle游戏菜单   
+        
+    
 
   - header: 经济系统
     description: 「阿洛娜」搭载了一套完整的经济系统，可以让您利用金币进行购买、游戏等操作
-    // image: /assets/image/markdown.svg
+    image: /assets/image/economy.svg
     bgImage: /assets/image/HomePage/EconomyBg.webp
     bgImageDark: /assets/image/HomePage/EconomyBg.webp
     bgImageStyle:
@@ -85,7 +160,7 @@ highlights:
 
   - header: 好感度系统
     description: 同时，「阿洛娜」搭载了契合度高的好感度系统，在投入金币的同时，也可以提升与「阿洛娜」的好感度
-    image: /assets/image/ui.svg
+    image: /assets/image/heart.svg
     bgImage: /assets/image/HomePage/FavorBg.webp
     bgImageDark: /assets/image/HomePage/FavorBg.webp
     features:
@@ -231,7 +306,32 @@ highlights:
       - title: '即将到来'
         icon: ellipsis
         details: 更多功能正在开发中
-
+        
+  - header: 公测-Wordless游戏
+    description: 「阿洛娜」新增的Wordle游戏
+    image: /assets/image/HomePage/WordlePic.webp
+    bgImage: /assets/image/HomePage/WordleBg.webp
+    bgImageDark: /assets/image/HomePage/WordleBg.webp
+    features:
+      - title: "#wordle"
+        icon: gamepad
+        details: 开始Wordle游戏
+        
+      - title: "#wordle 群wordle"
+        icon: gamepad
+        details: 开始Wordle群游戏(群内所有人共享)
+        
+      - title: "#exit"
+        icon: sign-out-alt
+        details: 退出Wordle游戏
+        
+      - title: "#wordle (日/周/月)排行"
+        icon: list
+        details: 查看Wordle排行榜(日/周/月)
+        
+      - title: "#wordle (日/周/月)群排行"
+        icon: list
+        details: 查看Wordle群排行榜(日/周/月)
   - header: 新功能
     description: 「阿洛娜」还在不断更新中，更多功能正在开发中
     image: /assets/image/advanced.svg
