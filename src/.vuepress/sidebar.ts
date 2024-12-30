@@ -9,7 +9,15 @@ export default sidebar({
       prefix: "documentation/",
       link: "documentation/",
       children: "structure",
-    },/*
+    },
+    {
+      text: "计划",
+      icon: "calendar",
+      prefix: "plans/",
+      link: "plans/",
+      children: "structure",
+    }
+    /*
     {
       text: "文档",
       icon: "book",
