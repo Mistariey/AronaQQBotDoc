@@ -31,7 +31,7 @@ highlights:
         - title: 'Tips: 一切指令"[]"表示为必填参数，"<>""表示为可选参数，请将括号去掉后替换相应内容发送'
 
   - header: 指令功能
-    image: /assets/image/box.svg
+    image: /assets/image/HomePage/Icon/box.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/3-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/3-dark.svg
     highlights:
@@ -42,7 +42,7 @@ highlights:
       - title: 特色机制与系统功能
         
   - header: 杂项功能
-    image: /assets/image/miscellaneous.svg
+    image: /assets/image/HomePage/Icon/miscellaneous.svg
     bgImage: /assets/image/HomePage/Menu.webp
     bgImageDark: /assets/image/HomePage/Menu.webp
     features:
@@ -118,7 +118,7 @@ highlights:
 
   - header: 经济系统
     description: 「阿洛娜」搭载了一套完整的经济系统，可以让您利用金币进行购买、游戏等操作
-    image: /assets/image/economy.svg
+    image: /assets/image/HomePage/Icon/economy.svg
     bgImage: /assets/image/HomePage/EconomyBg.webp
     bgImageDark: /assets/image/HomePage/EconomyBg.webp
     bgImageStyle:
@@ -160,7 +160,7 @@ highlights:
 
   - header: 好感度系统
     description: 同时，「阿洛娜」搭载了契合度高的好感度系统，在投入金币的同时，也可以提升与「阿洛娜」的好感度
-    image: /assets/image/heart.svg
+    image: /assets/image/HomePage/Icon/heart.svg
     bgImage: /assets/image/HomePage/FavorBg.webp
     bgImageDark: /assets/image/HomePage/FavorBg.webp
     features:
@@ -186,7 +186,7 @@ highlights:
 
   - header: 表情包系统
     description: 「阿洛娜」还搭载了表情包系统，可以让您自由生成自己喜爱的表情
-    image: /assets/image/layout.svg
+    image: /assets/image/HomePage/Icon/layout.svg
     bgImage: /assets/image/HomePage/EmojiBg.webp
     bgImageDark: /assets/image/HomePage/EmojiBg.webp
     features:
@@ -209,7 +209,7 @@ highlights:
 
   - header: 回声洞系统
     description: 「阿洛娜」回声洞系统，可以让您花费金币发送消息到回声洞，让其他用户看到
-    image: /assets/image/features.svg
+    image: /assets/image/HomePage/Icon/features.svg
     bgImage: /assets/image/HomePage/EchoBg.webp
     bgImageDark: /assets/image/HomePage/EchoBg.webp
     features:
@@ -239,7 +239,7 @@ highlights:
 
   - header: 公测-宠物系统
     description: 「阿洛娜」新增的宠物系统，可以让您养成自己的宠物
-    image: /assets/image/advanced.svg
+    image: /assets/image/HomePage/Icon/advanced.svg
     bgImage: /assets/image/HomePage/PetBg.webp
     bgImageDark: /assets/image/HomePage/PetBg.webp
     features:
@@ -334,7 +334,7 @@ highlights:
         details: 查看Wordle群排行榜(日/周/月)
   - header: 新功能
     description: 「阿洛娜」还在不断更新中，更多功能正在开发中
-    image: /assets/image/advanced.svg
+    image: /assets/image/HomePage/Icon/advanced.svg
     bgImage: /assets/image/HomePage/ComingSoonBg.webp
     bgImageDark: /assets/image/HomePage/ComingSoonBg.webp
     highlights:
