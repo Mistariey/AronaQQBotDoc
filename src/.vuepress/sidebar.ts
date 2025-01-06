@@ -11,6 +11,13 @@ export default sidebar({
       children: "structure",
     },
     {
+      text: "通知",
+      icon: "notification",
+      prefix: "notice/",
+      link: "notice/",
+      children: "structure"
+    },
+    {
       text: "计划",
       icon: "calendar",
       prefix: "plans/",
