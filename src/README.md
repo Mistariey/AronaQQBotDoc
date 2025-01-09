@@ -7,7 +7,7 @@ bgImage: /assets/image/HomePage/HeroBg.webp
 bgImageDark: /assets/image/HomePage/HeroBg.webp
 bgImageStyle:
   background-attachment: fixed
-heroText: QQ机器人「阿洛娜」
+heroText: QQ机器人「阿洛娜」&「星澜」
 tagline: <br><br><br>一个攻略查询/游戏养成的QQ机器人<br><br><br>
 heroFullScreen: true
 actions:
@@ -29,6 +29,7 @@ highlights:
         - title: 'Tips: 请注意全角与半角的区别，阿洛娜全部使用半角 "#"，而不是全角 "＃"'
         - title: 'Tips: 部分指令需要将各参数用空格分开，如：`#转账@用户 100`'
         - title: 'Tips: 一切指令"[]"表示为必填参数，"<>""表示为可选参数，请将括号去掉后替换相应内容发送'
+        - title: 'Tips: 星澜全部指令使用 "@星澜 /" 作为前缀，请务必确保@选择上'
 
   - header: 指令功能
     image: /assets/image/HomePage/Icon/box.svg

@@ -31,3 +31,9 @@
   background: rgba(255, 255, 255, 0.4); /* White transparent background */
   backdrop-filter: blur(5px); /* Frosted glass effect */
 }
+
+.vp-hero-title {
+background: linear-gradient(45deg, #25daf5, #2453aa, #5151a8, #b98f60, #ffb235);
+  -webkit-background-clip: text;
+  color: transparent;
+}
