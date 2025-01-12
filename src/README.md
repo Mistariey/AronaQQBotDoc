@@ -8,7 +8,7 @@ bgImageDark: /assets/image/HomePage/HeroBg.webp
 bgImageStyle:
   background-attachment: fixed
 heroText: QQ机器人「阿洛娜」&「星澜」
-tagline: <br><br><br>一个攻略查询/游戏养成的QQ机器人<br><br><br>
+tagline: <br><br><br>一个攻略查询/游戏养成的QQ机器人<br><strong>星澜QQ：3889007690</strong><br>若查询不到请加 <a href="https://qm.qq.com/q/Xh6RaGrOgg" target="_blank">什亭之匣</a> QQ群聊<br><br><br>
 heroFullScreen: true
 actions:
   - text: 最终用户许可协议
@@ -19,6 +19,7 @@ actions:
     icon: play
     link: ./documentation/UsageGuide.md
     type: sub-button
+
 
 highlights:
   
