@@ -31,12 +31,20 @@ tag:
         <td>13.14￥</td>
     </tr>
     <tr>
+        <td>小羊(204*****66)</td>
+        <td>10.00￥</td>
+    </tr>
+    <tr>
         <td>五雷(214*****31)</td>
         <td>5.20￥</td>
     </tr>
     <tr>
         <td>柚卡(398*****48)</td>
         <td>3.00￥</td>
+    </tr>
+    <tr>
+        <td>ᯤ⁵²⁰ᴳ(147*****99)</td>
+        <td>1.11￥</td>
     </tr>
     <tr>
         <td colspan="2">2025年1月7日</td>
@@ -57,6 +65,10 @@ tag:
 </table>
 
 
+
+::: warning 请在备注中注明您的QQ号与名字，以便于我在赞助榜单中标注您的信息
+:::
+
 ::: details 赞助方式
 
 ::: tabs
@@ -64,6 +76,9 @@ tag:
 @tab 微信
 
 ![微信收款码](/assets/image/Sponsor/SponsorWxQRcode.png "微信收款码" =x400)
+
+@tab QQ
+![QQ收款码](/assets/image/Sponsor/SponsorQQQRcode.png "QQ收款码" =x400)
 
 @tab 支付宝
 **还没有~欸嘿**
