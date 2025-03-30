@@ -12,7 +12,7 @@ export default sidebar({
     },
     {
       text: "通知",
-      icon: "notification",
+      icon: "bell",
       prefix: "notice/",
       link: "notice/",
       children: "structure"

@@ -19,6 +19,11 @@ actions:
     icon: play
     link: ./documentation/UsageGuide.md
     type: sub-button
+    
+  - text: Telegram-Onebot-Adapter
+    icon: server
+    link: ./documentation/Telegram-Onebot-Adapter.md
+    type: sub-button
 
 
 highlights:
