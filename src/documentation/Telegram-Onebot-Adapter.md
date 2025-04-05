@@ -9,13 +9,17 @@ tag:
 
 # Telegram-Onebot-Adapter
 
-[![](https://socialify.git.ci/Travellerrr/Telegram-Onebot-Adapter/image?description=0&font=Raleway&forks=1&issues=1&language=1&name=1&owner=1&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Auto)](https://github.com/Travellerrr/Telegram-Onebot-Adapter)
 ![](https://img.shields.io/badge/OneBot-11-black?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHAAAABwCAMAAADxPgR5AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAxQTFRF////29vbr6+vAAAAk1hCcwAAAAR0Uk5T////AEAqqfQAAAKcSURBVHja7NrbctswDATQXfD//zlpO7FlmwAWIOnOtNaTM5JwDMa8E+PNFz7g3waJ24fviyDPgfhz8fHP39cBcBL9KoJbQUxjA2iYqHL3FAnvzhL4GtVNUcoSZe6eSHizBcK5LL7dBr2AUZlev1ARRHCljzRALIEog6H3U6bCIyqIZdAT0eBuJYaGiJaHSjmkYIZd+qSGWAQnIaz2OArVnX6vrItQvbhZJtVGB5qX9wKqCMkb9W7aexfCO/rwQRBzsDIsYx4AOz0nhAtWu7bqkEQBO0Pr+Ftjt5fFCUEbm0Sbgdu8WSgJ5NgH2iu46R/o1UcBXJsFusWF/QUaz3RwJMEgngfaGGdSxJkE/Yg4lOBryBiMwvAhZrVMUUvwqU7F05b5WLaUIN4M4hRocQQRnEedgsn7TZB3UCpRrIJwQfqvGwsg18EnI2uSVNC8t+0QmMXogvbPg/xk+Mnw/6kW/rraUlvqgmFreAA09xW5t0AFlHrQZ3CsgvZm0FbHNKyBmheBKIF2cCA8A600aHPmFtRB1XvMsJAiza7LpPog0UJwccKdzw8rdf8MyN2ePYF896LC5hTzdZqxb6VNXInaupARLDNBWgI8spq4T0Qb5H4vWfPmHo8OyB1ito+AysNNz0oglj1U955sjUN9d41LnrX2D/u7eRwxyOaOpfyevCWbTgDEoilsOnu7zsKhjRCsnD/QzhdkYLBLXjiK4f3UWmcx2M7PO21CKVTH84638NTplt6JIQH0ZwCNuiWAfvuLhdrcOYPVO9eW3A67l7hZtgaY9GZo9AFc6cryjoeFBIWeU+npnk/nLE0OxCHL1eQsc1IciehjpJv5mqCsjeopaH6r15/MrxNnVhu7tmcslay2gO2Z1QfcfX0JMACG41/u0RrI9QAAAABJRU5ErkJggg==)
 
 基于 [OneBot](https://github.com/botuniverse/onebot/blob/main/README.md) 的 Telegram机器人Onebot v11 Java实现端
 
+
+---
+
 ## 底层
 - [Java Telegram Bot API](https://github.com/pengrad/java-telegram-bot-api): Telegram Bot API的Java实现
+
+---
 
 ## 兼容性
 完全兼容Onebot-v11协议,可与Onebot-v11协议的框架相连接,实现大部分功能
@@ -35,6 +39,29 @@ Telegram适配器支持以下连接方式:
 
 可以与支持onebotV11适配器的项目相连接使用
 
+---
+
+## 使用方法
+
+请确保设备环境安装了[`JDK17`](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)，否则将无法正常运行
+
+
+前往 [TOA Release](https://github.com/Travellerrr/Telegram-Onebot-Adapter/releases) 下载最新版本的`jar`文件
+
+将项目主体放置在任意目录中，确保文件夹中没有其他文件
+
+使用以下命令启动项目
+
+```shell
+java -jar Telegram-Onebot-Adapter-[version].jar
+```
+
+如果是第一次启动，项目将自动生成配置文件，请根据需要修改配置文件
+
+修改配置后，重新启动项目
+
+---
+
 ## 配置指南
 
 该项目目前仅支持[数组格式](https://github.com/botuniverse/onebot-11/blob/master/message/array.md)消息转发/接收,请确保你的框架支持该格式
@@ -51,7 +78,7 @@ command:
     start: 开始
     help: 帮助
     [Telegram发送内容]: [转发至Onebot内容]
-  prefix: [指令前缀 默认为"/"
+  prefix: [指令前缀 默认为"/"]
 onebot:
   ip: 0.0.0.0
   path: [Onebot ws连接路径]
@@ -63,9 +90,6 @@ spring:
     mysqlPassword: [数据库密码, 若使用H2/SQLITE可不填]
     mysqlUrl: [数据库连接url, 若使用H2/SQLITE可不填]
     mysqlUser: [数据库用户名, 若使用H2/SQLITE可不填]
-  jackson:
-    dateformat: yyyy-MM-dd HH:mm:ss
-    timezone: Asia/Shanghai
 telegram:
   bot:
     proxy:
@@ -78,6 +102,7 @@ telegram:
     username: [你的bot 用户名，随意设置]
 ```
 
+---
 
 ### 接口
 
@@ -89,6 +114,7 @@ telegram:
 - [x] 代理支持
 - [x] Telegram聊天信息区分用户和群组
 
+---
 
 ### 实现
 
@@ -161,5 +187,24 @@ telegram:
 | 请求事件 |  [加好友请求]  |  ❌   |
 | 请求事件 | [加群请求/邀请] |  ❌   |
 
+</details>
+
+<details>
+<summary>已实现 Message</summary>
+
+#### 符合 OneBot 标准的事件
+
+| 消息类型               | 收情况 | 发情况 |
+|--------------------|:---:|:---:|
+| 纯文本                |  ✅  |  ✅  |
+| 图片                 |  ❌  |  ✅  |
+| 图文混合(图片描述)         |  ❌  |  ✅  |
+| 语音                 |  ❌  |  ❌  |
+| 短视频                |  ❌  |  ❌  |
+| at某人               |  ✅  |  ✅  |
+| 回复                 |  ❌  |  ✅  |
+| QQ表情(替代为`Sticker`) |  ❌  |  ❌  | 
+
+其余`Message`Telegram不支持
 
 </details>
