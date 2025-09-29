@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://www.hoshiran.tech/sitemap.xml
+Sitemap: https://doc.hoshiran.tech/sitemap.xml
