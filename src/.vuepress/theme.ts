@@ -4,11 +4,11 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://www.hoshiran.tech",
+  hostname: "https://doc.hoshiran.tech",
 
   author: {
-    name: "Travellerr",
-    url: "https://www.travellerr.cn",
+    name: "Echomirix",
+    url: "https://blog.hoshiran.tech",
   },
 
   favicon: "/logo.png",
