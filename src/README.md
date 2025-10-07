@@ -350,5 +350,5 @@ highlights:
         details: 更多功能正在开发中
 
 copyright: false
-// footer: 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a> 主题 | by Travellerr
+// footer: 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a> 主题 | by Echomirix
 ---

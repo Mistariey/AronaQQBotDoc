@@ -8,7 +8,7 @@ export default hopeTheme({
 
   author: {
     name: "Echomirix",
-    url: "https://blog.hoshiran.tech",
+    url: "https://blog.echomirix.top",
   },
 
   favicon: "/logo.png",
@@ -17,7 +17,7 @@ export default hopeTheme({
 
   print: false,
 
-  repo: "NaxidaAndHoshiran/AronaQQBotDoc",
+  repo: "Mistariey/AronaQQBotDoc",
 
   docsDir: "src",
 

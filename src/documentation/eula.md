@@ -12,7 +12,7 @@ tag:
 
 ::: note 序言
 
-欢迎各位使用由 [Travellerr](https://github.com/travellerrr) 制作的QQ个人号机器人-阿洛娜！
+欢迎各位使用由 [Echomirix](https://github.com/echomirix) 制作的QQ个人号机器人-阿洛娜！
 
 近日，我在后台维护时发现有大量用户在违规使用阿洛娜服务（具体为以下几点）
 
@@ -35,7 +35,7 @@ tag:
 
 ### **声明**
 
-本协议（下称“EULA”）为[Travellerr](https://github.com/Travellerrr)（下称“开发者”）制作的项目`QQ机器人「阿洛娜」`（下称“ARONA”），与您（下称“用户”）之间就您使用机器人相关服务（下称“本服务”）的相关事项签订的合同。
+本协议（下称“EULA”）为[Echomirix](https://github.com/Echomirix)（下称“开发者”）制作的项目`QQ机器人「阿洛娜」`（下称“ARONA”），与您（下称“用户”）之间就您使用机器人相关服务（下称“本服务”）的相关事项签订的合同。
 
 为使用本服务，您应当阅读并遵守 EULA ，请您务必审慎阅读、充分理解各条款内容。**特别是以加粗、加下划线、斜体等形式提示您重点注意的协议内容。**
 
